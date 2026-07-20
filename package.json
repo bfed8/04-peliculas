@@ -1,0 +1,22 @@
+{
+  "name": "buscador-peliculas",
+  "version": "1.0.0",
+  "description": "Aplicacion web buscador de peliculas (CINEMA) con TMDB",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "server": "nodemon server/index.js",
+    "client": "npm --prefix client run dev",
+    "dev": "concurrently -n SERVER,CLIENT -c red,cyan \"npm run server\" \"npm run client\"",
+    "start": "node server/index.js",
+    "install:all": "npm install && npm --prefix client install"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "nodemon": "^3.1.4"
+  }
+}

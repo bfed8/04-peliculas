@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s \"http://localhost:3001/api/now_playing\")",
+      "Bash(node -e \"let d='';process.stdin.on\\('data',c=>d+=c\\).on\\('end',\\(\\)=>{const j=JSON.parse\\(d\\);console.log\\('results:',\\(j.results||[]\\).length\\)}\\)\")",
+      "Bash(curl -s \"http://localhost:3001/api/search?q=batman\")",
+      "Bash(node -e \"let d='';process.stdin.on\\('data',c=>d+=c\\).on\\('end',\\(\\)=>{const j=JSON.parse\\(d\\);console.log\\('results:',\\(j.results||[]\\).length,'| 1ra:',j.results&&j.results[0]&&j.results[0].title\\)}\\)\")",
+      "Bash(curl -s \"http://localhost:3001/api/search?year=2024&rating=8\")",
+      "Bash(curl -s \"http://localhost:3001/api/genres\")",
+      "Bash(node -e \"let d='';process.stdin.on\\('data',c=>d+=c\\).on\\('end',\\(\\)=>{const j=JSON.parse\\(d\\);console.log\\('generos:',\\(j.genres||[]\\).length,'| ej:',j.genres&&j.genres[0]&&j.genres[0].name\\)}\\)\")",
+      "Bash(curl -s \"http://localhost:3001/api/movie/27205\")",
+      "Bash(node -e \"let d='';process.stdin.on\\('data',c=>d+=c\\).on\\('end',\\(\\)=>{const j=JSON.parse\\(d\\);console.log\\('titulo:',j.title,'| runtime:',j.runtime,'| cast:',j.credits&&j.credits.cast&&j.credits.cast.length\\)}\\)\")",
+      "Bash(curl -s -X PUT \"http://localhost:3001/api/mis-datos/27205\" -H \"Content-Type: application/json\" -d \"{\\\\\"favorita\\\\\":true,\\\\\"titulo\\\\\":\\\\\"Origen\\\\\",\\\\\"poster_path\\\\\":\\\\\"/abc.jpg\\\\\"}\")",
+      "Bash(node -e \"let d='';process.stdin.on\\('data',c=>d+=c\\).on\\('end',\\(\\)=>{console.log\\(JSON.stringify\\(JSON.parse\\(d\\).peliculas\\)\\)}\\)\")",
+      "Bash(curl -s \"http://localhost:3001/api/mis-datos\")",
+      "Bash(curl -s -X PUT \"http://localhost:3001/api/mis-datos/27205\" -H \"Content-Type: application/json\" -d \"{\\\\\"favorita\\\\\":false}\")",
+      "Bash(node -e \"let d='';process.stdin.on\\('data',c=>d+=c\\).on\\('end',\\(\\)=>{console.log\\('peliculas:',JSON.stringify\\(JSON.parse\\(d\\).peliculas\\)\\)}\\)\")",
+      "PowerShell(\"RAIZ: \" + \\(Test-Path node_modules\\\\concurrently\\); \"CLIENT: \" + \\(Test-Path client\\\\node_modules\\\\vite\\))"
+    ]
+  }
+}

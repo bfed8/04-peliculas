@@ -1,0 +1,147 @@
+{
+  "peliculas": {
+    "238": {
+      "titulo": "El padrino",
+      "poster_path": "/ApiEfzSkrqS4m1L5a2GwWXzIiAs.jpg",
+      "favorita": true,
+      "vista": false,
+      "gusta": false
+    },
+    "240": {
+      "titulo": "El Padrino Parte II",
+      "poster_path": "/mbry0W5PRylSUHsYzdiY2FSJwze.jpg",
+      "favorita": false,
+      "vista": true,
+      "gusta": false,
+      "fecha_vista": "2026-06-22T02:14:23.382Z",
+      "resena": ""
+    },
+    "808": {
+      "titulo": "Shrek",
+      "poster_path": "/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg",
+      "favorita": false,
+      "vista": false,
+      "gusta": true
+    },
+    "863": {
+      "titulo": "Toy Story 2",
+      "poster_path": "/6zI0N9blJ9DwuV2xgl3TdGFLtn0.jpg",
+      "favorita": false,
+      "vista": true,
+      "gusta": false,
+      "fecha_vista": "2026-06-19T22:20:53.430Z",
+      "resena": ""
+    },
+    "79026": {
+      "titulo": "El padrino",
+      "poster_path": "/7Hl7Ys2INZ8NUq5wZMl8MbnVrzh.jpg",
+      "favorita": false,
+      "vista": false,
+      "gusta": true
+    },
+    "937287": {
+      "titulo": "Rivales",
+      "poster_path": "/Aiqfn4XtXUPr7QNsDsAKNQ1aOKV.jpg",
+      "favorita": false,
+      "vista": true,
+      "gusta": false,
+      "fecha_vista": "2026-06-20T17:26:09.641Z",
+      "resena": "ME PARECE UNA MIERDA"
+    },
+    "1228710": {
+      "titulo": "The Mandalorian and Grogu",
+      "poster_path": "/sWitU9IjgFwf6y1OrI0zUaL3GNa.jpg",
+      "favorita": false,
+      "vista": true,
+      "gusta": true,
+      "fecha_vista": "2026-06-19T15:17:15.761Z",
+      "resena": "132123"
+    },
+    "1325734": {
+      "titulo": "El drama",
+      "poster_path": "/zgfBYGYCNcOZ51JDbr6tm45H8y0.jpg",
+      "favorita": false,
+      "vista": true,
+      "gusta": false
+    },
+    "1367220": {
+      "titulo": "கருப்பு",
+      "poster_path": "/4KZXlZ5tTT6ghbW77gS4hSLkCd7.jpg",
+      "favorita": false,
+      "vista": true,
+      "gusta": true
+    },
+    "1430077": {
+      "titulo": "Hokum",
+      "poster_path": "/hzOJEzqrOtwXbPw1U5nZMvTaljQ.jpg",
+      "favorita": false,
+      "vista": true,
+      "gusta": true
+    }
+  },
+  "actores": {
+    "31": {
+      "nombre": "Tom Hanks",
+      "profile_path": "/oFvZoKI6lvU03n4YoNGAll9rkas.jpg"
+    },
+    "6950": {
+      "nombre": "Kevin Carroll",
+      "profile_path": "/8G4rrDJfwurNWv4BJY7PlPXqIiK.jpg"
+    },
+    "1136406": {
+      "nombre": "Tom Holland",
+      "profile_path": "/xKBAaPIa1c7tzZD3Y0MhBLv4hPE.jpg"
+    },
+    "1206334": {
+      "nombre": "Josh O'Connor",
+      "profile_path": "/iFGxCv7wMaComYR40Mt7fwbfY1k.jpg"
+    },
+    "1253360": {
+      "nombre": "Pedro Pascal",
+      "profile_path": "/oKcMbVn0NJTNzQt0ClKKvVXkm60.jpg"
+    }
+  },
+  "series": {
+    "13945": {
+      "titulo": "Gute Zeiten, schlechte Zeiten",
+      "poster_path": "/qujVFLAlBnPU9mZElV4NZgL8iXT.jpg",
+      "favorita": true,
+      "vista": false,
+      "gusta": false
+    },
+    "32895": {
+      "titulo": "Rizzoli & Isles",
+      "poster_path": "/kuCNyr4XVQ4MZWiNjVS6DypE988.jpg",
+      "favorita": true,
+      "vista": false,
+      "gusta": false
+    },
+    "60574": {
+      "titulo": "Peaky Blinders",
+      "poster_path": "/zUqNyXRfYkFAFXsqJJjKMZpjYus.jpg",
+      "favorita": false,
+      "vista": false,
+      "gusta": true
+    },
+    "90966": {
+      "titulo": "गुल्लक",
+      "poster_path": "/arn3mvRYSrEqO7vaKbH8QxM8EEK.jpg",
+      "favorita": false,
+      "vista": false,
+      "gusta": true
+    },
+    "206559": {
+      "titulo": "Binnelanders",
+      "poster_path": "/3bzECfllho8PphdYujLUIuhncJD.jpg",
+      "favorita": false,
+      "vista": true,
+      "gusta": false,
+      "fecha_vista": "2026-06-19T16:14:52.250Z",
+      "resena": ""
+    }
+  },
+  "perfil": {
+    "nombre": "Federico",
+    "avatar": "corona"
+  }
+}
